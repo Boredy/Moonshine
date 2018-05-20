@@ -1,13 +1,12 @@
 .root{
-	-fx-background-color: #383838;
-	
+	-fx-background-color: #383838;	
 }
 
 .label {
     -fx-font-size: 12px;
     -fx-font-weight: bold;
     -fx-text-fill: #e8e8e8;
-    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    
 }
 
 #welcome-text {
