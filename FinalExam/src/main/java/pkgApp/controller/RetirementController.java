@@ -73,12 +73,12 @@ public class RetirementController implements Initializable {
 		// Validate Monthly SSI, accept only digits
 		
 		
-		hmTextFieldRegEx.put(txtYearsToWork, "\\d*?");
+		hmTextFieldRegEx.put(txtYearsToWork, "([0-9]|[1-3][0-9]|40)");
 		hmTextFieldRegEx.put(txtAnnualReturnWorking, "\\d*(\\.\\d*)?");
-		hmTextFieldRegEx.put(txtYearsRetired, "\\d*?");
+		hmTextFieldRegEx.put(txtYearsRetired, "([0-9]|1[0-9]|20)");
 		hmTextFieldRegEx.put(txtAnnualReturnRetired, "\\d*(\\.\\d*)?");
-		hmTextFieldRegEx.put(txtRequiredIncome, "\\d*?");
-		hmTextFieldRegEx.put(txtMonthlySSI, "\\d*?");
+		hmTextFieldRegEx.put(txtRequiredIncome, "(264[2-9]|26[5-9][0-9]|2[7-9][0-9]{2}|[3-9][0-9]{3}|10000)");
+		hmTextFieldRegEx.put(txtMonthlySSI, "([0-9]|[1-8][0-9]|9[0-9]|[1-8][0-9]{2}|9[0-8][0-9]|99[0-9]|1[0-9]{3}|2[0-5][0-9]{2}|26[0-3][0-9]|264[0-2])");
 
 		
 		
